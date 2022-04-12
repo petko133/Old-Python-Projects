@@ -1,0 +1,45 @@
+{% include "header.html" %}
+
+{% block content %}
+
+<header class="intro text-center">
+    <div class="container">
+        <h1 class="h1-intro">
+            MAKE YOUR OWN
+            <br>
+            TODO LIST
+        </h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-8">
+                <p class="explore">
+                    Register to make your ToDo list or Login and see your existing lists.
+                </p>
+                <a href="{{url_for('register')}}" class="btn btn-lg btn-success book-now">Register</a>
+                <a href="{{url_for('login')}}" class="btn btn-lg btn-success book-now">Log In</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="row justify-content-center explaining">
+    <div class="col-md-8">
+        <p class="font-large">Get your work and tasks <strong>organized</strong> with <strong>ToDo</strong> list. We make people <strong>follow their path</strong> and help them <strong>stay focused</strong> on their tasks ahead.</p>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container text-center">
+        <div class="footer-section">
+            <a href="">Suggest a place</a>
+            <a href="">Explore all</a>
+        </div>
+        <div class="footer-section font-large icons">
+            <a href=""><i class="fa fa-facebook-square"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin-square"></i></a>
+            <a href=""><i class="fa fa-twitter-square"></i></a>
+        </div>
+    </div>
+</footer>
+
+{% endblock %}

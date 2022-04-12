@@ -1,0 +1,11 @@
+{% include "header.html" %}
+
+{% block content %}
+
+{% if not current_user.is_authenticated %}
+    {% include "home.html" %}
+    {% else: %}
+    {% include "logedin.html" %}
+{% endif %}
+
+{% endblock %}

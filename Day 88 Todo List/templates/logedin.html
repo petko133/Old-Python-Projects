@@ -1,0 +1,37 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block content %}
+
+<section class="row fa-intro">
+
+    <header>
+    <h1 class="h1-intro">
+        Welcome to your ToDo List. Here are yours tasks.<a href="{{url_for('add_new_list')}}" class="btn btn-lg btn-success book-now add-task">Add task</a>
+
+    </h1>
+    </header>
+{% for task in all_tasks: %}
+
+    {% endfor %}
+
+{% for task in all_tasks: %}
+    <div class="col-sm-4 xs-padding-top ">
+        <div class="content border rounded">
+            <form action="{{url_for('delete_task')}}" method="post">
+            <div class="container border-bottom" >
+                <span>{{ task.title }}</span>
+                <input type=hidden value="{{ task.title }}" name=task_to_delete />
+                <input class="btn btn-smm btn-success" type=submit value="Delete"/>
+            </div>
+            <div class="container border-bottom">
+            <span>{{ task.date }}</span>
+            </div>
+            <span>{{ task.task }}</span>
+            </form>
+        </div>
+    </div>
+{% endfor %}
+</section>
+
+{% endblock %}

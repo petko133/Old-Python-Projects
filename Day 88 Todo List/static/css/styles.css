@@ -1,0 +1,133 @@
+body{
+    overflow-x: hidden;
+    background-color: #E3CAA5;
+}
+
+.navbar{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    position: fixed;
+}
+
+.navbar-brand{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    padding: 15px;
+    margin-right: 60%;
+}
+
+header.intro {
+    height: 70%;
+    width: 100%;
+    color: #fff;
+    min-height: 70%;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url("https://images.unsplash.com/photo-1501290836517-b22a21c522a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80") no-repeat center center scroll #000;
+    background-size: cover;
+    padding: 150px 0;
+    padding: 6vw 0;
+}
+
+.btn {
+    margin: 1.2rem;
+}
+
+.btn-smm {
+    padding: 0px 5px!important;
+    position: absolute;
+    right: 5%;
+    margin: 0;
+    background-color:red!important;
+    border-color: red!important;
+    font-style: normal;
+    margin-top: 4px;
+    margin-right: 2px;
+}
+
+.form-control{
+    font-size: 1.7rem;
+}
+
+.add-task{
+    margin: 0 30px;
+}
+
+.explore{
+    font-size: 3rem;
+}
+
+.container .h1-intro{
+    padding: 40px 60px;
+    font-size: 5rem;
+}
+
+.row{
+    top: 60px;
+    padding: 4% 5%;
+    position: relative;
+}
+
+.row.fa-intro{
+    top: 0px;
+    padding: 4% 5%;
+    position: relative;
+}
+
+.h1-intro{
+    margin-bottom: 1rem;
+}
+
+.container{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+
+.container span{
+    padding: 0!important;
+}
+
+.content{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    height: 20rem;
+    margin: 1rem 0;
+    background-color: #FFFBE9;
+}
+
+.content .container{
+    width: 100%;
+}
+
+.content span{
+    padding: 0px 15px;
+    display: inline-block;
+    width: 100%;
+    word-wrap: break-word;
+    max-height: 124px;
+    word-break: break-all;
+    overflow: auto;
+}
+
+.explaining{
+    top: 0px;
+    padding: 4% 5%;
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#log-in{
+    padding: 4% 5% 0% 5%;
+}
+
+footer {
+    background-color: #343434;
+    color: white;
+    padding: 3rem 0 2.5rem 0;
+    font-size: 2rem;
+}
+
+footer a, footer a:hover{
+    padding: 10px 10px;
+    color:white;
+    text-decoration: none;
+}

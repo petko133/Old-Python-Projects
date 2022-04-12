@@ -1,0 +1,312 @@
+body{
+    overflow-x: hidden;
+}
+
+div{
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.collapse{
+    padding: 0 0 0 80%;
+}
+
+.navbar{
+    position: fixed;
+    background-color: #FFD07F;
+    align-items: center;
+    padding: 0.1rem 1rem;
+    text-align: center;
+}
+.navbar-brand{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px 5px;
+    margin-right: 60%;
+}
+
+h3{
+    padding: 6% 0%;
+}
+
+header.intro {
+    height: 70%;
+    width: 100%;
+    color: #fff;
+    min-height: 70%;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url("https://www.lsretail.com/hubfs/BLOG_reduce-waste-grow-loyalty-coffee-shop-1.jpg") no-repeat center center scroll #000;
+    background-size: cover;
+    padding: 150px 0;
+    padding: 6vw 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+p{
+    font-size: 1.6rem;
+    margin-right: 1rem;
+}
+
+footer {
+    background-color: #343434;
+    color: white;
+    padding: 3rem 0 2.5rem 0;
+    font-size: 2rem;
+}
+
+footer a, footer a:hover{
+    padding: 10px 10px;
+    color:white;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.nav-link{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.explore{
+    padding: 0 0 30px 0;
+}
+
+.explaining{
+    padding: 70px 50px;
+    text-align: center;
+}
+
+.explaining p{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.icons{
+    margin: 15px 0;
+}
+
+.h1-intro{
+    padding: 60px;
+    font-size: 7rem;
+}
+
+.place:hover{
+    text-decoration: none;
+    background-color: #f6f7f7;
+}
+
+.fa-intro{
+    padding: 30px 0px;
+    margin: 0px 90px;
+    text-align: center;
+}
+
+.fa-intro p{
+    font-size: 2rem;
+}
+
+.fa-intro h3{
+    font-size: 2.5rem;
+}
+
+.fa-fw{
+    padding-bottom: 10px;
+    width: 10rem;
+}
+
+.card-title{
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.fa-heart:before {
+    content: "\f004";
+}
+
+.form{
+    font-size: 1.7rem;
+}
+
+.form-control{
+    font-size: 1.5rem;
+}
+
+#submit{
+    font-size: 2rem;
+    font-weight: bold;
+    border: solid #e6e6e6 2px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.col-xl, .col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1, .col-lg, .col-lg-auto, .col-lg-12, .col-lg-11, .col-lg-10, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1, .col-md, .col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm, .col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col, .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#landing section {
+    padding: 5rem 0;
+}
+
+#best_match{
+    padding-bottom: 10px;
+}
+
+#places-title {
+    top: 50px;
+    position: fixed;
+    z-index: 1020;
+    width: 100%;
+}
+
+#city-name{
+    background:white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 40.66666667%;
+}
+
+#places-filters {
+    padding-top: 60px;
+    margin-bottom: 0;
+    overflow-x: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    position: fixed!important;
+}
+
+#city #places-list .list {
+    display: flex;
+    flex-direction: column;
+}
+
+#city .place, #city .suggest {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+#city #places-filters, #city #places-map {
+    padding-top: 8rem;
+    overflow-y: scroll;
+}
+
+#city .place img, #city .suggest img{
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+    height: 9rem;
+    width: 100%;
+}
+
+#city .place .card-body p, #city .suggest .card-body p {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 10px 0 0 0;
+}
+
+#city .place .card-body, #city .suggest .card-body {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+    padding: 0.43rem 0 0 0;
+}
+
+#city .filters .btn {
+    text-align: center;
+}
+
+#city .filters .btn.active {
+    color: white;
+    background-color: #343434;
+}
+
+#city .filters button {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+#city #places-list {
+    margin-top: 11.5rem;
+}
+
+#city .place .card-img-top, #city .suggest .card-img-top {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+
+@media (min-width: 992px)
+.col-lg-3 {
+    flex: 0 0 26%;
+    max-width: 25%;
+}
+
+@media (min-width: 992px){
+#places-map {
+    position: fixed !important;
+    margin-bottom: 0;
+    top: 5.1rem;
+    bottom: 0;
+    height: 100%;
+    box-shadow: none;
+}}
+
+@media (min-width: 992px)
+.d-lg-block {
+    display: block !important;
+}
+
+@media (min-width: 768px){
+#places-map {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-left: 66.6666666%;
+}}
+
+@media (min-width: 992px){
+.offset-lg-3 {
+    margin-left: 26%;
+}}
+

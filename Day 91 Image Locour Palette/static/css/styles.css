@@ -1,0 +1,118 @@
+.navbar{
+    background-color: #f6f6f6;
+    height: 100px;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    color: #8f8f8f!important;
+}
+
+img{
+    bottom: 15px;
+    left: 145px;
+    width: 75px;
+    height: 75px;
+    position: relative;
+}
+
+span{
+    position:absolute;
+    top:40px;
+    left: 240px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.content{
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+h1{
+    padding: 4% 0% 2% 0%;
+    font-size: 4rem;
+    color:#8f8f8f;
+}
+
+h2{
+    padding-bottom: 2%;
+    font-size: 2.5rem;
+    color:#8f8f8f;
+}
+
+#demo_img{
+    position:relative;
+    left:0;
+    top:0;
+    bottom:0;
+    width:75%;
+    height: 40%;
+    margin-bottom: 2%;
+}
+
+.form-select{
+    position: relative;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0% 40% 5%;
+    display: inline-block;
+    width: 15%;
+}
+
+.table{
+    font-size: 2rem;
+}
+
+.form{
+    font-size: 1.5rem;
+}
+
+.custom-file-input{
+    border: 1px solid;
+    border-color: #dee2e6;
+    border-radius: 3px;
+    padding: 4px;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ff5100;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  border: solid #ff5100 2px;
+  text-decoration: none;
+  margin-bottom: 10%;
+}
+
+.btn:hover {
+  background: #f45653;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+    background-color: #343434;
+    color: white;
+    padding: 3rem 0 2.5rem 0;
+    font-size: 2rem;
+}
+
+.footer-section{
+    margin:2rem;
+}
+
+footer a, footer a:hover{
+    padding: 10px 10px;
+    color:white;
+    text-decoration: none;
+}
+
